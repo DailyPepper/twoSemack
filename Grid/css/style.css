@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Poppins:wght@500&display=swap');
 
+*{
+    outline: auto lime;
+}
+
 body{
     background-color: rgb(212, 247, 228);
 }
@@ -24,10 +28,45 @@ body{
     font-size: 27px;
 }
 
+
 .main{
     
 }
+.main__foto{
+    width: 400px;
+    margin-left: 15%;
+    margin-top: 10%;
+}
+.section__first{
+    display: flex;
 
+}
+.grid__one{
+    background-color: black;
+    width: 400px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 100px 300px;
+    grid-template-rows: 300px 100px;
+}
+.grid__two{
+    display: grid;
+    grid-template-rows: 125px 156px;
+    grid-gap: 15px;
+}
+.grid__besh{
+    background-color: #f0e0ca;
+}
+.grid__red{
+    display: grid;
+    grid-template-rows: 150px 200px;
+    background-color: red;
+}
+.grid__blue{
+    display: grid;
+    grid-template-rows: 100px 200px;
+    background-color: #23234b;
+}
 .footer{
 
 }
