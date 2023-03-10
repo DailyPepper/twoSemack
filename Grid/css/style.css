@@ -48,6 +48,8 @@ body{
     display: grid;
     grid-template-columns: 100px 300px;
     grid-template-rows: 300px 100px;
+    margin-left: 100px;
+    margin-top: 145px;
 }
 .grid__two{
     display: grid;
@@ -59,13 +61,20 @@ body{
 }
 .grid__red{
     display: grid;
-    grid-template-rows: 150px 200px;
+    grid-template-columns: 150px 200px;
     background-color: red;
 }
 .grid__blue{
     display: grid;
     grid-template-rows: 100px 200px;
     background-color: #23234b;
+}
+
+.grid__four{
+    /* background-color: aliceblue; */
+}
+.grid_fdf{
+
 }
 .footer{
 
