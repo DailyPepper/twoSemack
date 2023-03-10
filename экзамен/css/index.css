@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2? family=Source+Sans+Pro:wght@300&display=swap');
+
+body{
+
+}
+:root{
+    --color1:
+}
+.wrapper{
+    max-width: 940px;
+    width: 40%;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.heading{
+    /* background-color: blanchedalmond; */
+    padding: 0 100px;
+    margin: 0 auto;
+}
+.heading_name{
+    font-size: 30px;
+    padding-left: 50px;
+
+}
+.heading_contact{
+    display: flex;
+    gap: 40px;
+    display: inline-flex;
+    list-style-type: none;
+    margin-top: 6%;
+    font-size: 25px;
+}
+.heading_button{
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: 10px;
+    color: black;
+}
+.section_wrapper{
+    width: 40%;
+    margin: 0 auto;
+}
+.forum-section{
+    font-size: 25px;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+.section_forum-title{
+    background-color: rgb(206, 87, 133);
+    display: grid;
+    gap: 20px;
+}
+.section_forum_name{
+    background-color: aqua;
+    border:  none;
+    width: 99.4%;
+    height: 50px;
+    color: black;
+    border-style: none;
+}
+.section_forum_name::placeholder{
+    color: rgb(46, 94, 136);
+    padding: 0 10px;
+    font-size: 20px;
+}
+.section_forum_name::selection{
+    font-size: 20px;
+    color: aquamarine;
+}
+.basement-title_date[type="date"]{
+    background: rgb(84 173 164);
+    width: 566px;
+    min-height: 57px;
+    font-family: "Montserrat";
+    padding: 0px solid rgb(255, 255, 255);
+    border-style: none;
+    padding-left: 30px;
+    color: white;
+    font-size: 17px;
+}
+.section_forum_email{
+    background: rgb(115 182 176);
+    width: 564px;
+    min-height: 57px;
+    border-style: none;
+    font-family: "Montserrat";
+    padding-left: 30px;
+    color: var(--color1);
+    font-size: 17px;
+}
+.section_forum_email::placeholder{
+    color: var(--color1);
+    font-family: "Montserrat";
+    font-size: 17px;
+    font-style: normal;    
+}
