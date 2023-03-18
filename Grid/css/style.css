@@ -125,3 +125,15 @@ body{
     line-height: 43px;
     font-family:  Bannertype_1;
 }
+.time__wrapper{
+    display: flex;
+}
+.twoCard__text{
+
+}
+.twoCard__time{
+    margin-left: 5px;
+}
+.twoCard__time-small{
+    font-size: 9px;
+}
