@@ -113,11 +113,15 @@ body{
 }
 .section__grid-one{
     display: grid;
-    grid-template-columns: 176px;
-    grid-template-rows: 106px 242px;
+    grid-template-columns: 194px;
+    grid-template-rows: 108px 242px;
+}
+.section__grid-two{
+    background-color: white;
 }
 .section__grid-time{
     margin-left: 5px;
+    background-color: white
 }
 .sectin__grid-title{
     margin-top: 10px;
@@ -140,16 +144,32 @@ body{
 .gridThree__card-black{
     background-color: #000000;
     width: 80px;
-    height: 363px; 
+    display: grid;
+    grid-template-rows: 319px 30px;
+    margin-left: 4px;
+}
+
+.gridFour__heading{
+    color: red;
+    font-size: 143px;
+    line-height: 118px;
+}
+
+.section__grid-four{
+    background-color: white;
 }
 .gridFour__heading{
     color: red;
-    font-size: 150px;
+    font-size: 143px;
     line-height: 118px;
 }
 .gridFour__text{
     color: red;
-    font-size: 45px;
+    font-size: 39px;
     line-height: 0;
     margin-left: 4px;
+    margin-top: 10px;
+}
+.section__grid-three{
+    background-color: white;
 }
