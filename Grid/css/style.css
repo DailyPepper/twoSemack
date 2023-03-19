@@ -105,11 +105,11 @@ body{
     margin-left: 15%;
 }
 .section__foto-div{
-    width: 475px;
-    height: 715px;
-    background-color: white;
     margin-top: 10%;
     margin-left: 5%;
+    display: grid;
+    grid-template-columns: 245px 390px;
+    grid-template-rows: 351px 353px;
 }
 .section__grid-one{
     display: grid;
@@ -136,4 +136,20 @@ body{
 }
 .twoCard__time-small{
     font-size: 9px;
+}
+.gridThree__card-black{
+    background-color: #000000;
+    width: 80px;
+    height: 363px; 
+}
+.gridFour__heading{
+    color: red;
+    font-size: 150px;
+    line-height: 118px;
+}
+.gridFour__text{
+    color: red;
+    font-size: 45px;
+    line-height: 0;
+    margin-left: 4px;
 }
