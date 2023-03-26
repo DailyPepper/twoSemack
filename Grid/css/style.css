@@ -27,16 +27,25 @@ body{
     display: flex;
     justify-content: center;
 }
+.header__svg{
+    display: flex;
+    justify-content: center; 
+    font-size: 40px;
+    margin-top: 20px;
+    color: black;  
+}
+.header__grid{
+    display: flex;
+    justify-content: center; 
+    font-size: 40px;
+    margin-top: 20px;
+    color: black;  
+}
 .header__text{
     display: flex;
     justify-content: center;
     margin-top: 50px;
     font-size: 27px;
-}
-
-
-.main{
-    
 }
 .main__foto{
     width: 400px;
@@ -251,4 +260,29 @@ body{
 .hover-effect-scale li:hover div {
     opacity: 1;
 }
-     
+
+.svg__one{
+    background-color: black;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    gap: 6px;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 373px 759px;
+    grid-template-rows: 456px;
+}
+.svg__two{
+    gap: 6px;
+    display: grid;
+    grid-template-columns: 370px;
+    grid-template-rows: 100px 350px;
+}
+.element{
+    background-color: rgb(242, 234, 121);
+}
+.svg__two-text{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    font-size: 50px;
+}
