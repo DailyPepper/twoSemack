@@ -185,7 +185,7 @@ body{
     background-color: white;
 }
 .wrapper{
-    max-width: 1170px;
+    max-width: 1137px;
     width: 100%;
     margin: 0px auto;
 }
@@ -285,4 +285,66 @@ body{
     justify-content: center;
     margin-top: 5%;
     font-size: 50px;
+}
+.svg__four{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.svg__text{
+    padding-top: 20px;
+    color: black;
+    margin-left: 45px;
+    text-decoration: none;
+}
+.svg__three{
+    display: grid;
+    grid-template-columns: 127px 127px 127px 127px 127px 127px;
+    grid-template-rows: 152px 152px 152px;
+    grid-template-areas:
+        " svg1 svg1 svg1 svg1 svg1 svg1"
+        " svg2 svg2 svg2 svg3 svg3 svg3"
+        "svg4 svg4 svg5 svg5 svg6 svg6 ";
+    overflow: hidden;
+}
+.element-first-row--1{
+    grid-area: svg1;
+    grid-row-start: svg1;
+    grid-column-start: svg1;
+    grid-row-end: svg1;
+    grid-column-end: svg1;
+}
+.icon{
+    width: 100%;
+    height: 100%;
+}
+.element-first-row--2{
+    grid-area: svg2;
+    grid-row-start: svg2;
+    grid-column-start: svg2;
+    grid-row-end: svg2;
+}
+.element-first-row--3{
+    grid-area: svg3;
+    grid-row-start: svg3;
+    grid-column-start: svg3;
+    grid-row-end: svg3;
+}
+.element-first-row--4{
+    grid-area: svg4;
+    grid-row-start: svg4;
+    grid-column-start: svg4;
+    grid-row-end: svg4; 
+}
+.element-first-row--5{
+    grid-area: svg5;
+    grid-row-start: svg5;
+    grid-column-start: svg5;
+    grid-row-end: svg5; 
+}
+.element-first-row--6{
+    grid-area: svg6;
+    grid-row-start: svg6;
+    grid-column-start: svg6;
+    grid-row-end: svg6; 
 }
