@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 *{
-    outline: auto lime;
+    /* outline: auto lime; */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Bannertype_1;
+    font-family: 'Bebas Neue';
 }
 
 body{
@@ -119,7 +120,7 @@ body{
     margin-top: 10%;
     margin-left: 5%;
     display: grid;
-    grid-template-columns: 245px 390px;
+    grid-template-columns: 245px 330px;
     grid-template-rows: 351px 353px;
 }
 .section__grid-one{
@@ -138,7 +139,7 @@ body{
     margin-top: 10px;
     font-size: 50px;
     line-height: 43px;
-    font-family:  Bannertype_1;
+    font-family: 'Bebas Neue';
 }
 .time__wrapper{
     display: flex;
@@ -162,7 +163,7 @@ body{
 
 .gridFour__heading{
     color: red;
-    font-size: 143px;
+    font-size: 155px;
     line-height: 118px;
 }
 
@@ -176,9 +177,9 @@ body{
 }
 .gridFour__text{
     color: red;
-    font-size: 39px;
+    font-size: 41px;
     line-height: 0;
-    margin-left: 4px;
+    margin-left: 3px;
     margin-top: 10px;
 }
 .section__grid-three{
