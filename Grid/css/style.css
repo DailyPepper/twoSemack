@@ -120,7 +120,7 @@ body{
     margin-top: 10%;
     margin-left: 5%;
     display: grid;
-    grid-template-columns: 245px 330px;
+    grid-template-columns: 160px 245px;
     grid-template-rows: 351px 353px;
 }
 .section__grid-one{
@@ -137,12 +137,15 @@ body{
 }
 .sectin__grid-title{
     margin-top: 10px;
-    font-size: 50px;
+    font-size: 54px;
     line-height: 43px;
     font-family: 'Bebas Neue';
+    margin-left: 2%;
 }
 .time__wrapper{
     display: flex;
+    margin-left: 2%;
+    letter-spacing: 1px;
 }
 .twoCard__text{
 
@@ -177,7 +180,7 @@ body{
 }
 .gridFour__text{
     color: red;
-    font-size: 41px;
+    font-size: 38px;
     line-height: 0;
     margin-left: 3px;
     margin-top: 10px;
