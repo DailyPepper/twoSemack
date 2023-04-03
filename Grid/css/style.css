@@ -352,8 +352,16 @@ body{
     grid-column-start: svg6;
     grid-row-end: svg6; 
 }
+.wrapper__svg{
+    max-width: 950px;
+    width: 100%;
+    margin: 0px auto;
+}
 .main__ul{
     list-style: none;
+    display: flex;
+    gap: 50px;
+    margin-top: 10%;
 }
 .main__window{
     width: 200px;
