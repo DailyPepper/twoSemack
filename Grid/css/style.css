@@ -426,3 +426,7 @@ body{
     width: 1000px;
     height: 1000px;
 }
+.house__line:hover{
+    color: aqua;
+    background-color: brown;
+}
