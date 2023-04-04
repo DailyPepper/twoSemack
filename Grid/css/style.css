@@ -368,3 +368,61 @@ body{
     height: 200px;
     background-color: #8BD6A0;
 }
+.krest {
+    width: 200px;
+    height: 200px;
+    padding-top: 15px;
+    padding-left: 6px;
+}
+.krest__button:hover{
+    color: bisque;
+    background-color: darksalmon;
+}
+.house{
+    width: 200px;
+    height: 200px;   
+}
+.house__button:hover{
+    color: bisque;
+    background-color: darksalmon;
+}
+.lupa{
+    width: 200px;
+    height: 200px;
+}
+.lupa__button:hover{
+    color: bisque;
+    background-color: darksalmon;
+}
+.burgerMenu{
+    width: 200px;
+    height: 200px;
+    padding-left: 6px;
+    padding-top: 15px;
+}
+.burderMenu__button:hover{
+    color: bisque;
+    background-color: darksalmon;
+}
+.section__house{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0px auto;
+    padding-top: 10%;
+}
+.section__house-text{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    font-size: 40px;
+}
+.house__wrapper{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+}
+.myHouse{
+    width: 1000px;
+    height: 1000px;
+}
