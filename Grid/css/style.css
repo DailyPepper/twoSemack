@@ -147,9 +147,6 @@ body{
     margin-left: 2%;
     letter-spacing: 1px;
 }
-.twoCard__text{
-
-}
 .twoCard__time{
     margin-left: 5px;
 }
@@ -400,6 +397,35 @@ body{
     padding-left: 6px;
     padding-top: 15px;
 }
+
+.burgerMenu__button path{
+	transition: transform 0.25s;
+}
+.burgerMenu__button path:nth-of-type(1){
+	transform: rotate(45deg);
+	transform-origin: -1px 3px;
+}
+.burgerMenu__button path:nth-of-type(2){
+	display: none;
+}
+.burgerMenu__button path:nth-of-type(3){
+	transform: rotate(-45deg);
+	transform-origin: 0px 13px;
+}
+
+.burgerMenu:hover{
+    cursor: pointer;
+}
+
+
+/* .burgerMenu__button{
+    transition: all 0.3s;
+    height: 3px;
+
+} */
+
+
+
 .burderMenu__button:hover{
     color: bisque;
     background-color: darksalmon;
@@ -429,4 +455,88 @@ body{
 .house__line:hover{
     color: aqua;
     background-color: brown;
+}
+
+.myHouse:hover ~ .home__33{
+    opacity: 0;
+}
+
+.long__home:hover,
+.hospital:hover,
+.shope:hover,
+.roma-1:hover,
+.roma-2:hover,
+.my__home:hover {
+    color: red;
+}
+
+.long__home-text,
+.hospital-text,
+.shope-text,
+.roma-1-text,
+.roma-2-text,
+.my__home-text {
+    opacity: 0;
+    fill:rgb(226, 24, 47)
+}
+
+.house__33:hover ~ .long__home-text {
+    opacity: 1;
+}
+
+.hospital:hover ~ .hospital-text {
+    opacity: 1;
+}
+
+.shope:hover ~ .shope-text {
+    opacity: 1;
+}
+
+.roma-1:hover ~ .roma-1-text {
+    opacity: 1;
+}
+
+.roma-2:hover ~ .roma-2-text {
+    opacity: 1;
+}
+
+.my__home:hover ~ .my__home-text {
+    opacity: 1;
+}
+
+text {
+    font-size: 20px;
+}
+
+.city__wrapper {
+    width: 700px;
+    height: 700px;
+    overflow: hidden;
+    position: relative;
+}
+
+.city {
+
+}
+
+.fon1 {
+    animation: city infinite linear;
+    animation-duration: 7s;
+    position: absolute;
+}
+
+.fon1-1 {
+    animation: city infinite linear;
+    animation-duration: 7s;
+    animation-delay: 4s;
+    position: absolute;
+}
+
+@keyframes city {
+    to {
+        transform: translate(100px);
+    }
+    from {
+        transform: translate(-100px);
+    }
 }
