@@ -398,17 +398,17 @@ body{
     padding-top: 15px;
 }
 
-.burgerMenu__button path{
+/* .burgerMenu path{
 	transition: transform 0.25s;
 }
-.burgerMenu__button path:nth-of-type(1){
+.active .burgerMenu path:nth-of-type(1){
 	transform: rotate(45deg);
 	transform-origin: -1px 3px;
 }
-.burgerMenu__button path:nth-of-type(2){
+.burgerMenu path:nth-of-type(2){
 	display: none;
 }
-.burgerMenu__button path:nth-of-type(3){
+.burgerMenu path:nth-of-type(3){
 	transform: rotate(-45deg);
 	transform-origin: 0px 13px;
 }
@@ -423,7 +423,7 @@ body{
     height: 3px;
 
 } */
-
+ */
 
 
 .burderMenu__button:hover{
@@ -434,12 +434,11 @@ body{
     max-width: 1000px;
     width: 100%;
     margin: 0px auto;
-    padding-top: 10%;
 }
 .section__house-text{
     display: flex;
     justify-content: center;
-    padding-top: 5%;
+    padding-top: 1%;
     font-size: 40px;
 }
 .house__wrapper{
@@ -452,11 +451,6 @@ body{
     width: 1000px;
     height: 1000px;
 }
-.house__line:hover{
-    color: aqua;
-    background-color: brown;
-}
-
 .myHouse:hover ~ .home__33{
     opacity: 0;
 }
@@ -470,62 +464,59 @@ body{
     color: red;
 }
 
-.long__home-text,
-.hospital-text,
-.shope-text,
-.roma-1-text,
-.roma-2-text,
-.my__home-text {
+.house__line-text,
+.house__neighbors,
+.house__why,
+.house__myHome{
     opacity: 0;
-    fill:rgb(226, 24, 47)
+    fill:rgb(79, 75, 76)
 }
 
-.house__33:hover ~ .long__home-text {
+.house__2:hover ~ .house__line-text {
     opacity: 1;
 }
-
-.hospital:hover ~ .hospital-text {
+.house__1:hover ~ .house__neighbors{
     opacity: 1;
 }
-
-.shope:hover ~ .shope-text {
+.house__3:hover ~ .house__why{
     opacity: 1;
 }
-
-.roma-1:hover ~ .roma-1-text {
+.house__my:hover ~ .house__myHome{
     opacity: 1;
 }
-
-.roma-2:hover ~ .roma-2-text {
-    opacity: 1;
-}
-
-.my__home:hover ~ .my__home-text {
-    opacity: 1;
-}
-
 text {
     font-size: 20px;
 }
 
 .city__wrapper {
+    max-width: 500px;
+    margin: 0px auto;
+    padding-top: 10%;
     width: 700px;
     height: 700px;
     overflow: hidden;
     position: relative;
 }
 
-.city {
-
+.city__text{
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+    font-size: 40px;
+}
+.city__block{
+    width: 500px;
+    height: 220px;
+    background-color: aquamarine;
 }
 
-.fon1 {
+.city__animation {
     animation: city infinite linear;
     animation-duration: 7s;
     position: absolute;
 }
 
-.fon1-1 {
+.city__animation-2 {
     animation: city infinite linear;
     animation-duration: 7s;
     animation-delay: 4s;
