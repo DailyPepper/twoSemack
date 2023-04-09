@@ -512,14 +512,14 @@ text {
 
 .city__animation {
     animation: city infinite linear;
-    animation-duration: 7s;
+    animation-duration: 10s;
     position: absolute;
 }
 
 .city__animation-2 {
     animation: city infinite linear;
-    animation-duration: 7s;
-    animation-delay: 4s;
+    animation-duration: 10s;
+    animation-delay: 7s;
     position: absolute;
 }
 
