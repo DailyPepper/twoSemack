@@ -398,32 +398,50 @@ body{
     padding-top: 15px;
 }
 
-/* .burgerMenu path{
+.burgerMenu line{
 	transition: transform 0.25s;
-}
-.active .burgerMenu path:nth-of-type(1){
-	transform: rotate(45deg);
-	transform-origin: -1px 3px;
-}
-.burgerMenu path:nth-of-type(2){
-	display: none;
-}
-.burgerMenu path:nth-of-type(3){
-	transform: rotate(-45deg);
-	transform-origin: 0px 13px;
-}
+} 
 
+.burgerMenu.active .line1 {
+    transform-origin: center center;
+    animation: line1 0.5s ease forwards;
+  }
+  
+  .burgerMenu.active .line2 {
+    animation: line2 0.3s ease forwards;
+  }
+  
+  .burgerMenu.active .line3 {
+    transform-origin: center center;
+    animation: line3 0.5s ease forwards;
+  }
+  
+  @keyframes line1 { 
+    from { 
+
+    } to { 
+        transform: translateX(-85px) translateY(45px)
+        rotate(45deg);
+    } 
+  } 
+  @keyframes line2 { 
+    from { 
+        opacity: 1; 
+    } to { 
+        opacity: 0; 
+    } 
+  } 
+  @keyframes line3 { 
+    from { 
+    } to { 
+        transform:  translateX(25px) translateY(-57px)
+        rotate(-45deg);
+    } 
+  }
+  
 .burgerMenu:hover{
     cursor: pointer;
 }
-
-
-/* .burgerMenu__button{
-    transition: all 0.3s;
-    height: 3px;
-
-} */
- */
 
 
 .burderMenu__button:hover{
@@ -492,8 +510,8 @@ text {
     max-width: 500px;
     margin: 0px auto;
     padding-top: 10%;
-    width: 700px;
-    height: 700px;
+    width: 500px;
+    height: 500px;
     overflow: hidden;
     position: relative;
 }
@@ -506,7 +524,7 @@ text {
 }
 .city__block{
     width: 500px;
-    height: 220px;
+    height: 400px;
     background-color: aquamarine;
 }
 
@@ -514,20 +532,52 @@ text {
     animation: city infinite linear;
     animation-duration: 10s;
     position: absolute;
+    z-index: 30;
+}
+.city__animation-1 {
+    animation: city infinite linear;
+    animation-duration: 10s;
+    position: absolute;
+    animation-delay: 5s;
+    z-index: 30;
 }
 
 .city__animation-2 {
     animation: city infinite linear;
-    animation-duration: 10s;
-    animation-delay: 7s;
+    animation-duration: 6s;
     position: absolute;
+    margin-top: 75px;
+    z-index: 100;
+}
+.city__animation-2-2 {
+    animation: city infinite linear;
+    animation-duration: 6s;
+    animation-delay: 3s;
+    position: absolute;
+    margin-top: 75px;
+    z-index: 100;
+}
+.city__animation-3{
+    animation: city infinite linear;
+    animation-duration: 3s;
+    animation-delay: 1.5s;
+    position: absolute;
+    z-index: 150;
+    margin-top: 120px;
+}
+.city__animation-3-3{
+    animation: city infinite linear;
+    animation-duration: 3s;
+    position: absolute;
+    z-index: 150;
+    margin-top: 120px;
 }
 
 @keyframes city {
     to {
-        transform: translate(100px);
+        transform: translate(600px);
     }
     from {
-        transform: translate(-100px);
+        transform: translate(-800px);
     }
 }
